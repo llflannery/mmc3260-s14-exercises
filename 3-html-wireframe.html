@@ -3,41 +3,57 @@
 
     <head>
         <title>Exercise 3: HTML wireframe</title>
-        <meta charset="UTF-8">
+                <meta charset="UTF-8">
         <meta name="description" content="A basic HTML layout styles with CSS.">
         <meta name="keywords" content="HTML,CSS,layout,wireframe,mmc3260">
         <meta name="author" content="Dave Stanton">
         <link rel="stylesheet" type="text/css" href="css/layout.css">
+
     </head>
 
     <body>
 
         <header>
-            <h1>HTML wireframe layout</h1>
+            <h1>Lauren Flannery: Freelance Writer</h1>
         </header>
 
         <nav>
-            <a href="1-html-quick-fix.html">HTML quick fix</a>
-            <a href="2-html-links-and-images.html">HTML links and images</a>
-            <a href="#footer">Copyright</a>
+           <a href="index.html">Home</a> <!--I'm assuming my links are broken because I'm doing this on a fork, and not my actual index site. I'll just copy all this to my index site and it should work, right?-->
+            <a href="about.html">My Bio</a>
+            <a href="clips.html">My Published Clips</a>  <!-- I haven't created these pages yet -->
+            <a href="resume.html">My Resume</a>
+            <a href="contact.html">Contact</a>
         </nav>
 
+        <body>
+            <div id="wrapper">
         <article>
+            
+            <figure>
+                <img src="img/profile2014.jpg"
+                     alt="Lauren Flannery"
+                     title="Lauren Flannery 2014" />
+                <figcaption> This is my caption</figcaption>
+                      
+            </figure>
 
             <section>
-                <h2>Section heading</h2>
-                <p>Put whatever you want here.</p>
+                <h2>This is my site</h2>   <!--I haven't thought about what words I want on this page, so right now I'm not going to put anything.-->
+                <p>This is my body paragraph</p>
             </section>
 
-            <aside>
-                <h2>Aside heading</h2>
-                <p>Be careful about having an aside element just for dumping other things. This area, however, might be a great spot for sharing tools or related links to this article.
-            </aside>
-
+           
         </article>
+                </div>
+            </body>
 
         <footer>
-            <p id="copyright">&copy; 2013. Content in your projects should be all original. Any content from additional sources should explicitly state the source and give credit. The GIFs used in these exercises were found on <a href="http://giphy.com/">Giphy</a>. If these exercises were intended for public viewing, I should track down the actually copyright owner for all of the images I used.</p>
+            <p>Copyright of Lauren Flannery 2014</p>
+            <a href="index.html">Home</a>
+            <a href="about.html">My Bio</a>
+            <a href="clips.html">My Published Clips</a>
+            <a href="resume.html">My Resume</a>
+            <a href="contact.html">Contact</a>
         </footer>        
 
     </body>
